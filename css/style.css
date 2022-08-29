@@ -570,6 +570,7 @@ h6,
 }
 .im{
     display: block;
+<<<<<<< HEAD
 }
 .pt-6{
     padding-top: 3rem;
@@ -591,3 +592,6 @@ h6,
         text-align: center;
     }
   }
+=======
+}
+>>>>>>> aff9fa69c6b3a4876580e5d556a29c5fc1c70c12

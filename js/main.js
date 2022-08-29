@@ -107,3 +107,51 @@
     
 })(jQuery);
 
+<<<<<<< HEAD
+=======
+$("#in").click(function(){
+    $(".instagram").show();
+    $(".twitter").hide();
+    $(".youtube").hide();
+    $(".facebook").hide();
+    $("#graph").hide();
+});
+$("#twit").click(function(){
+  $(".instagram").hide();
+    $(".twitter").show();
+    $(".youtube").hide();
+    $(".facebook").hide();
+    $("#graph").hide();
+});
+$("#fa").click(function(){
+  $(".instagram").hide();
+  $(".twitter").hide();
+  $(".youtube").hide();
+  $(".facebook").show();
+  $("#graph").hide();
+});
+$("#you").click(function(){
+  $(".instagram").hide();
+  $(".twitter").hide();
+  $(".youtube").show();
+  $(".facebook").hide();
+  $("#graph").hide();
+});
+$("#all").click(function(){
+  $(".instagram").show();
+  $(".twitter").show();
+  $(".youtube").show();
+  $(".facebook").show();
+  $("#graph").show();
+});
+$("#all1").click(function(){
+
+   $(".image-1").hide();
+  $(".instagram").show();
+  $(".twitter").show();
+  $(".youtube").show();
+  $(".facebook").show();
+  $("#graph").show();
+ 
+});
+>>>>>>> aff9fa69c6b3a4876580e5d556a29c5fc1c70c12
